@@ -21,7 +21,7 @@ else
 {
     van = false;
 }
-if van == true{
+if (van == true){
     Console.WriteLine("A vásárló diák, kedvezményes jegyárat kap.");
 
 };
@@ -35,7 +35,7 @@ int Popcornar = 1500;
 Console.WriteLine("Popcorn mennyisége:");
 decimal Popcar = decimal.Parse(Console.ReadLine());
 
-Popcornar = int.Parse("1500")*Popcar;
+Popcornar = Convert.ToInt32(1500 * Popcar);
 
 int osszeg1 = (int)Jegyar + Popcornar;
 
